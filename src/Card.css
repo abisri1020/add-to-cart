@@ -1,0 +1,44 @@
+.card {
+  border: 1px solid black;
+  display: flex;
+  direction: row;
+  justify-content: space-evenly;
+  margin: 50px;
+  border-radius: 2%;
+  overflow: hidden;
+}
+
+.image {
+  width: 250px;
+  height: 170px;
+  background-position: center;
+  background-size: cover;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  max-height: 200px;
+}
+
+.sale {
+  background-color: black;
+  color: whitesmoke;
+
+  position: relative;
+  top: 22px;
+  left: 220px;
+  border-radius: 20%;
+}
+
+.old_Cost {
+  color: grey;
+}
+
+.alignment {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
